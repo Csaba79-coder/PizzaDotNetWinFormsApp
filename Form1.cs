@@ -15,10 +15,13 @@ namespace PizzaDotNetWinFormsApp
 
         private static Pizza pizza;
         private static CocaCola cola;
+<<<<<<< HEAD
         private static bool isMenu = false;
         private static double  discount = 0.1;
         private static Decimal total;
 
+=======
+>>>>>>> 78075adfda6070abb5b370e0460b767c6cb03b22
 
         public Form1()
         {
@@ -38,6 +41,7 @@ namespace PizzaDotNetWinFormsApp
         private void btnPizza_Click(object sender, EventArgs e)
         {
             pizza = new Pizza();
+<<<<<<< HEAD
             
             if (isMenu)
             {
@@ -55,11 +59,15 @@ namespace PizzaDotNetWinFormsApp
 
 
             this.txtBoxPrice.Text = total.ToString("0.00");
+=======
+            this.txtBoxPrice.Text = pizza.price.ToString();
+>>>>>>> 78075adfda6070abb5b370e0460b767c6cb03b22
         }
 
         private void btnCola_Click(object sender, EventArgs e)
         {
             cola = new CocaCola();
+<<<<<<< HEAD
             total += cola.price;
             this.txtBoxPrice.Text = total.ToString("0.00");
         }
@@ -67,6 +75,9 @@ namespace PizzaDotNetWinFormsApp
         private void checkBoxMenu_CheckedChanged(object sender, EventArgs e)
         {
             isMenu = true;
+=======
+            this.txtBoxPrice.Text = cola.price.ToString();
+>>>>>>> 78075adfda6070abb5b370e0460b767c6cb03b22
         }
     }
 }
