@@ -58,7 +58,10 @@ namespace PizzaDotNetWinFormsApp
             this.checkBoxMenu.TabIndex = 3;
             this.checkBoxMenu.Text = "as Menu";
             this.checkBoxMenu.UseVisualStyleBackColor = true;
+<<<<<<< HEAD
             this.checkBoxMenu.CheckedChanged += new System.EventHandler(this.checkBoxMenu_CheckedChanged);
+=======
+>>>>>>> 78075adfda6070abb5b370e0460b767c6cb03b22
             // 
             // btnCola
             // 
