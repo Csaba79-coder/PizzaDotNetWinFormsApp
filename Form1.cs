@@ -18,7 +18,7 @@ namespace PizzaDotNetWinFormsApp
         private static bool isMenu = false;
         private static double  discount = 0.1;
         private static Decimal total;
-        
+
 
         public Form1()
         {
@@ -67,17 +67,6 @@ namespace PizzaDotNetWinFormsApp
         private void checkBoxMenu_CheckedChanged(object sender, EventArgs e)
         {
             isMenu = true;
-            /*discount = (decimal)Convert.ToDouble(discountPrice);
-
-            if (isMenu)
-            {
-                pizza = new Pizza();
-                cola = new CocaCola();
-
-                Decimal total = (pizza.price + cola.price);
-                total *= discount;
-                this.txtBoxPrice.Text = total.ToString();
-            }*/
         }
     }
 }
